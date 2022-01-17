@@ -35,16 +35,16 @@
     </ul>
 
 
-    <div class="header">
-        <div class="logo center">
+    <div class="header">  
+        <div class="logo center sticky">
             <img src="img/LOGO.png">
         </div>
-        <div class="description">
+        <div class="description sticky">
             <div class="title center">
                 <h1>Katochi</h1>
             </div>
-            <div class="content center">
-                <p> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
+            <div class="content center row">
+                <p class="col offset-l3 offset-m1 l6 m10 s12"> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
             </div>
         </div>
     </div>
@@ -80,9 +80,55 @@
         </div> 
         <div class="logo_twitch center">
             <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" />
+        </div>     
+    </div>
+
+    <div class="row">
+        <div class="col l4 s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
         </div>
-            
-          
+        <div class="col l4 s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
+        </div>
+        <div class="col l4 s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 

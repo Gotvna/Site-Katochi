@@ -5,3 +5,13 @@ $(document).ready(function(){
     });
     $('.sidenav').sidenav();
   });
+  
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    padding: 200
+}, setTimeout(autoplay, 5500));
+ 
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 5500);
+}
