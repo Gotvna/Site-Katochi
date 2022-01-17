@@ -15,13 +15,33 @@
 
 <body>
 
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+
+
     <div class="header">
         <div class="logo center">
-            <img src="img/circle.jpg">
+            <img src="img/LOGO.png">
         </div>
         <div class="description">
-            <div class="title">
-                <h1 class="center">Katochi</h1>
+            <div class="title center">
+                <h1>Katochi</h1>
             </div>
             <div class="content center">
                 <p> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
@@ -29,15 +49,41 @@
         </div>
     </div>
 
-    <div class="carousel">
-        <a class="carousel-item red" href="#one!"></a>
-        <a class="carousel-item amber" href="#two!"></a>
-        <a class="carousel-item yellow" href="#three!"></a>
-        <a class="carousel-item purple" href="#four!"></a>
-        <a class="carousel-item pink" href="#five!"></a>
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item ">
+            <h2>Evenement</h2>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+        </div>
     </div>
 
-
+    <div class="twitch">
+        <div class="title center">
+            <h2>Notre émission twitch hebdomadaire</h2>
+        </div>
+        <div class="row">
+            <div class="col l6 m6 s12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a esse nemo labore qui voluptates. Dolor accusantium perspiciatis soluta distinctio explicabo ipsa adipisci voluptatibus deleniti doloremque minima, atque, natus minus placeat dolores, rem quia reiciendis sequi et. Modi nisi, placeat voluptate aliquid, ipsa magnam quidem cum distinctio consequatur vero fuga?</p>
+            </div>   
+            <div class="col l6 m6 s12 carousel carousel-slider">
+                <a class="carousel-item red" href="#one!"></a>
+                <a class="carousel-item blue" href="#two!"></a>
+                <a class="carousel-item green" href="#three!"></a>
+                <a class="carousel-item yellow" href="#four!"></a>
+            </div>
+        </div> 
+        <div class="logo_twitch center">
+            <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" />
+        </div>
+            
+          
+    </div>
 
 
     <footer class="page-footer">

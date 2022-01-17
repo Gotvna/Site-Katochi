@@ -5,6 +5,7 @@
 body{
    margin: 0;
 }
+
 html{
    font-family: 'Adigiana', Arial, sans-serif;
    font-weight: normal;
@@ -13,14 +14,24 @@ html{
 }
 
 .header{
-   height: 55vh; 
-   margin-top: 20px;
+   height: 85vh; 
    background-image: url("../img/backHeader.jpg");
    background-position: center;
    background-size: cover; 
    background-repeat: no-repeat;
 }
 
+.header .logo img{
+   margin-top: 10vh;
+}
 h1{
    text-transform: uppercase;
+}
+
+h2{
+   text-transform: uppercase;
+}
+
+.carousel.carousel-slider.center {
+   height: 65vh;
 }
