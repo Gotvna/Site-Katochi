@@ -15,26 +15,24 @@
 
 <body>
 
-    <nav>
+    <nav class="">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Logo</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="#event">Event</a></li>
+                <li><a href="#twitch">Chaîne Twitch</a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="#event">Event</a></li>
+        <li><a href="#twitch">Chaîne Twitch</a></li>
     </ul>
 
 
+<<<<<<< HEAD
     <div class="header">  
         <div class="logo center sticky">
             <img src="img/LOGO.png">
@@ -45,11 +43,28 @@
             </div>
             <div class="content center row">
                 <p class="col offset-l3 offset-m1 l6 m10 s12"> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
+=======
+    <div class="header">
+        <div class="logo center">
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="img/backHeader.jpg">
+                </div>
+                <img src="img/LOGO.png">
+                <div class="description">
+                    <div class="title center">
+                        <h1>Katochi</h1>
+                    </div>
+                    <div class="content center">
+                        <p> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
+                    </div>
+                </div>
+>>>>>>> 87b9a33d5051a4b402637b4de80d0ab6ce75391a
             </div>
         </div>
     </div>
 
-    <div class="carousel carousel-slider center">
+    <div id="event" class="event carousel carousel-slider center">
         <div class="carousel-fixed-item ">
             <h2>Evenement</h2>
         </div>
@@ -63,7 +78,7 @@
         </div>
     </div>
 
-    <div class="twitch">
+    <div id="twitch" class="twitch">
         <div class="title center">
             <h2>Notre émission twitch hebdomadaire</h2>
         </div>
@@ -80,6 +95,7 @@
         </div> 
         <div class="logo_twitch center">
             <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" />
+<<<<<<< HEAD
         </div>     
     </div>
 
@@ -129,6 +145,9 @@
                 </div>
             </div>
         </div>
+=======
+        </div>    
+>>>>>>> 87b9a33d5051a4b402637b4de80d0ab6ce75391a
     </div>
 
 

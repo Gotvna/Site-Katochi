@@ -4,6 +4,7 @@ $(document).ready(function(){
         indicators: true,
     });
     $('.sidenav').sidenav();
+    $('.parallax').parallax();
   });
   
 $('.carousel.carousel-slider').carousel({
@@ -15,3 +16,5 @@ function autoplay() {
     $('.carousel').carousel('next');
     setTimeout(autoplay, 5500);
 }
+
+

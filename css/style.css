@@ -12,13 +12,29 @@ html{
    font-weight: normal;
    scroll-behavior: smooth;
 }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav .brand-logo {
+    margin-left: 30px;
+}
+
+nav ul a {
+    font-size: 1.25rem;
+}
 
 .header{
    height: 85vh; 
-   background-image: url("../img/backHeader.jpg");
+   /* background-image: url("../img/backHeader.jpg"); */
    background-position: center;
    background-size: cover; 
    background-repeat: no-repeat;
+}
+.parallax-container {
+    height: 100vh;
 }
 
 .header .logo img{
