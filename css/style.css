@@ -2,7 +2,9 @@
    font-family: "Adigiana";
    src: url("../Adigiana.ttf") format("truetype");
 }
-
+body{
+   margin: 0;
+}
 html{
    font-family: 'Adigiana', Arial, sans-serif;
    font-weight: normal;
@@ -11,7 +13,12 @@ html{
 }
 
 .header{
-   height: 25vh;
+   height: 55vh; 
+   margin-top: 20px;
+   background-image: url("../img/backHeader.jpg");
+   background-position: center;
+   background-size: cover; 
+   background-repeat: no-repeat;
 }
 
 h1{
