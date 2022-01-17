@@ -27,7 +27,7 @@ nav ul a {
 }
 
 .header{
-   height: 85vh; 
+   height: 100vh; 
    /* background-image: url("../img/backHeader.jpg"); */
    background-position: center;
    background-size: cover; 
@@ -37,6 +37,14 @@ nav ul a {
     height: 100vh;
 }
 
+
+p {
+    font-size: 1.25rem;
+}
+
+.text-header {
+    margin-top: 5vh;
+}
 .header .logo img{
    margin-top: 10vh;
 }
