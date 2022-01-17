@@ -15,23 +15,20 @@
 
 <body>
 
-    <nav>
+    <nav class="">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Logo</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="#event">Event</a></li>
+                <li><a href="#twitch">Chaîne Twitch</a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="#event">Event</a></li>
+        <li><a href="#twitch">Chaîne Twitch</a></li>
     </ul>
 
 
@@ -49,7 +46,7 @@
         </div>
     </div>
 
-    <div class="carousel carousel-slider center">
+    <div id="event" class="event carousel carousel-slider center">
         <div class="carousel-fixed-item ">
             <h2>Evenement</h2>
         </div>
@@ -63,7 +60,7 @@
         </div>
     </div>
 
-    <div class="twitch">
+    <div id="twitch" class="twitch">
         <div class="title center">
             <h2>Notre émission twitch hebdomadaire</h2>
         </div>
@@ -80,9 +77,7 @@
         </div> 
         <div class="logo_twitch center">
             <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" />
-        </div>
-            
-          
+        </div>    
     </div>
 
 
