@@ -1,3 +1,19 @@
+@font-face {
+   font-family: "Adigiana";
+   src: url("../Adigiana.ttf") format("truetype");
+}
+
+html{
+   font-family: 'Adigiana', Arial, sans-serif;
+   font-weight: normal;
+   font-weight: normal;
+   scroll-behavior: smooth;
+}
+
+.header{
+   height: 25vh;
+}
+
 h1{
    text-transform: uppercase;
 }
