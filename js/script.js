@@ -4,4 +4,5 @@ $(document).ready(function(){
         indicators: true,
     });
     $('.sidenav').sidenav();
+    $('.parallax').parallax();
   });

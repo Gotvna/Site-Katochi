@@ -34,14 +34,19 @@
 
     <div class="header">
         <div class="logo center">
-            <img src="img/LOGO.png">
-        </div>
-        <div class="description">
-            <div class="title center">
-                <h1>Katochi</h1>
-            </div>
-            <div class="content center">
-                <p> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="img/backHeader.jpg">
+                </div>
+                <img src="img/LOGO.png">
+                <div class="description">
+                    <div class="title center">
+                        <h1>Katochi</h1>
+                    </div>
+                    <div class="content center">
+                        <p> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

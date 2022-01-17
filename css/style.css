@@ -28,10 +28,13 @@ nav ul a {
 
 .header{
    height: 85vh; 
-   background-image: url("../img/backHeader.jpg");
+   /* background-image: url("../img/backHeader.jpg"); */
    background-position: center;
    background-size: cover; 
    background-repeat: no-repeat;
+}
+.parallax-container {
+    height: 100vh;
 }
 
 .header .logo img{
