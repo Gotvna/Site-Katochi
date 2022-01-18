@@ -22,6 +22,11 @@ nav .brand-logo {
     margin-left: 30px;
 }
 
+nav li:hover {
+    background-color: rgb(48, 46, 46) !important;
+    
+}
+
 nav ul a {
     font-size: 1.25rem;
 }
@@ -43,7 +48,7 @@ p {
 }
 
 .text-header {
-    margin-top: 5vh;
+    margin-top: 2.5vh;
 }
 .header .logo img{
    margin-top: 10vh;
