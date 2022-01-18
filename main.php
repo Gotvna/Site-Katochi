@@ -15,10 +15,10 @@
 
 <body>
     <?php
-        require 'requires/navbar.php';
+    require 'requires/navbar.php';
     ?>
 
-    
+
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#event">Event</a></li>
@@ -38,11 +38,11 @@
                         <h1>Katochi</h1>
                     </div>
                     <div class="row content center">
-                        
+
                         <div class="col offset-l3 offset-m1 l6 m10 s12  ">
-                            <p class="text-header"> Lorem ipsum dolor sit amet ita quis  Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
+                            <p class="text-header"> Lorem ipsum dolor sit amet ita quis Expedita, vitae. Nihil culpa quasi, quia hic sint autem, numquam maxime reprehenderit totam quos aliquam exercitationem vero provident nostrum placeat expedita odit, assumenda alias beatae quod in dignissimos. Maiores fugiat recusandae, earum consectetur autem placeat eos sint quibusdam alias et optio vitae ipsa reprehenderit minima ex ullam non cupiditate consequuntur ad eveniet quas. Aut placeat architecto natus, voluptatum temporibus exercitationem, magnam explicabo eveniet quaerat ratione quas unde repudiandae perferendis quos facilis omnis possimus dolorum ullam in sunt molestias voluptatibus odio dicta debitis! Quos iure pariatur excepturi libero labore alias quasi, totam ipsa, mollitia praesentium assumenda perspiciatis, atque dolorum temporibus facere natus consectetur delectus autem quisquam quod!</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -70,22 +70,22 @@
         <div class="row">
             <div class="col l6 m6 s12">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a esse nemo labore qui voluptates. Dolor accusantium perspiciatis soluta distinctio explicabo ipsa adipisci voluptatibus deleniti doloremque minima, atque, natus minus placeat dolores, rem quia reiciendis sequi et. Modi nisi, placeat voluptate aliquid, ipsa magnam quidem cum distinctio consequatur vero fuga?</p>
-            </div>   
+            </div>
             <div class="col l6 m6 s12 carousel carousel-slider">
                 <a class="carousel-item red" href="#one!"></a>
                 <a class="carousel-item blue" href="#two!"></a>
                 <a class="carousel-item green" href="#three!"></a>
                 <a class="carousel-item yellow" href="#four!"></a>
             </div>
-        </div> 
+        </div>
         <div class="logo_twitch center">
             <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" />
-        </div>    
+        </div>
     </div>
 
 
-    <?php 
-        require 'requires/footer.php'
+    <?php
+    require 'requires/footer.php'
     ?>
 
     <script type="text/javascript" src="js/jquery.js"></script>
