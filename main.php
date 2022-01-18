@@ -14,17 +14,11 @@
 </head>
 
 <body>
+    <?php
+        require 'requires/navbar.php';
+    ?>
 
-    <nav class="">
-        <div class="nav-wrapper black ">
-            <a href="#" class="brand-logo yellow-text">Logo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="yellow-text" href="#event">Event</a></li>
-                <li><a class="yellow-text" href="#twitch">Chaîne Twitch</a></li>
-            </ul>
-        </div>
-    </nav>
+    
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#event">Event</a></li>
@@ -90,31 +84,9 @@
     </div>
 
 
-    <footer class="page-footer black">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="yellow-text">Footer Content</h5>
-                    <p class="yellow-text text-lighten-3">You can use rows and columns here to organize your footer content.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="yellow-text">Links</h5>
-                    <ul>
-                        <li><a target="_blank" class="yellow-text text-lighten-3" href="https://www.instagram.com/katochi_tv/">Insta</a></li>
-                        <li><a target="_blank" class="yellow-text text-lighten-3" href="https://discord.gg/gSugRjcTeJ">Discord</a></li>
-                        <li><a target="_blank" class="yellow-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a target="_blank" class="yellow-text text-lighten-3" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright yellow-text text-lighten-2">
-            <div class="container">
-                © 2021 Katochi Corp
-                <a class="yellow-text text-lighten-2 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer>
+    <?php 
+        require 'requires/footer.php'
+    ?>
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
