@@ -5,6 +5,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a class="yellow-text" href="#event">Event</a></li>
                 <li><a class="yellow-text" href="#twitch">Chaîne Twitch</a></li>
+                <li><a class="yellow-text" href="#articles">Articles</a></li>
             </ul>
         </div>
     </nav>

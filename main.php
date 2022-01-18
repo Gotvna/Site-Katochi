@@ -20,9 +20,10 @@
 
 
 
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#event">Event</a></li>
-        <li><a href="#twitch">Chaîne Twitch</a></li>
+    <ul class="sidenav black" id="mobile-demo">
+        <li><a class="yellow-text" href="#event">Event</a></li>
+        <li><a class="yellow-text" href="#twitch">Chaîne Twitch</a></li>
+        <li><a class="yellow-text" href="#articles">Articles</a></li>
     </ul>
 
 
@@ -83,8 +84,9 @@
         </div>    
     </div>
 
-    <div class="row">
-        <div class="col l3 m4 s6">
+<!-- --------------------------------    ARTICLE PART    -------------------------------- -->
+    <div id="articles" class="row">
+        <div class="col l3 m6 s6">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -100,7 +102,7 @@
             </div>
         </div>
 
-        <div class="col l3 m4 s6">
+        <div class="col l3 m6 s6">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -116,7 +118,7 @@
             </div>
         </div>
 
-        <div class="col l3 m4 s6">
+        <div class="col l3 m6 s6">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -132,7 +134,7 @@
             </div>
         </div>
 
-        <div class="col l3 m4 s6">
+        <div class="col l3 m6 s6">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -150,7 +152,7 @@
     </div>
 
     <div class="row">
-        <div class="col offset-l5 l4 m6 s6">
+        <div class="col offset-l5 l4 offset-m4 offset-s2">
             <a class="waves-effect waves-light btn-large yellow-text black"><i class="material-icons right">arrow_downward</i>Afficher plus d'articles</a>
         </div>
     </div>
