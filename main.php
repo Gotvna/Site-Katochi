@@ -15,7 +15,7 @@
 
 <body>
     <?php
-    require 'requires/navbar.php';
+        require  'requires/navbar.php';
     ?>
 
 
@@ -79,10 +79,81 @@
             </div>
         </div>
         <div class="logo_twitch center">
-            <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" />
+            <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" href="#" />
+        </div>    
+    </div>
+
+    <div class="row">
+        <div class="col l3 m4 s6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l3 m4 s6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l3 m4 s6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l3 m4 s6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/backHeader.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
+                </div>
+            </div>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col offset-l5 l4 m6 s6">
+            <a class="waves-effect waves-light btn-large yellow-text black"><i class="material-icons right">arrow_downward</i>Afficher plus d'articles</a>
+        </div>
+    </div>
 
     <?php
     require 'requires/footer.php'
