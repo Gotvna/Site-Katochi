@@ -1,10 +1,11 @@
 $(document).ready(function () {
-    $('.carousel').carousel({
-        fullWidth: true,
-        indicators: true,
-    });
+    // $('.carousel').carousel({
+    //     fullWidth: true,
+    //     indicators: true,
+    // });
     $('.sidenav').sidenav();
     $('.parallax').parallax();
+    $('.modal').modal();
 });
 
 $('.carousel.carousel-slider').carousel({

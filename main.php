@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Icon -->
+    <link rel="icon" href="img/LOGO.png">
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Css sheets -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection">
     <link rel="stylesheet" href="css/style.css">
     <title>Association Katochi</title>
 </head>
 
 <body>
     <?php
-        require  'requires/navbar.php';
+    require  'requires/navbar.php';
     ?>
 
 
@@ -81,12 +84,12 @@
         </div>
         <div class="logo_twitch center">
             <img src="https://img.icons8.com/bubbles/200/000000/twitch-wordmark.png" href="#" />
-        </div>    
+        </div>
     </div>
 
-<!-- --------------------------------    ARTICLE PART    -------------------------------- -->
+    <!-- --------------------------------    ARTICLE PART    -------------------------------- -->
     <div id="articles" class="row">
-        <div class="col l3 m6 s6">
+        <div class="col l3 m6 s12">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -94,7 +97,7 @@
                 </div>
                 <div class="card-content">
                     <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
+                        I am convenient because I require little markup to use effectively.</p>
                 </div>
                 <div class="card-action">
                     <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
@@ -102,7 +105,7 @@
             </div>
         </div>
 
-        <div class="col l3 m6 s6">
+        <div class="col l3 m6 s12">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -110,7 +113,7 @@
                 </div>
                 <div class="card-content">
                     <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
+                        I am convenient because I require little markup to use effectively.</p>
                 </div>
                 <div class="card-action">
                     <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
@@ -118,7 +121,7 @@
             </div>
         </div>
 
-        <div class="col l3 m6 s6">
+        <div class="col l3 m6 s12">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -126,7 +129,7 @@
                 </div>
                 <div class="card-content">
                     <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
+                        I am convenient because I require little markup to use effectively.</p>
                 </div>
                 <div class="card-action">
                     <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
@@ -134,7 +137,7 @@
             </div>
         </div>
 
-        <div class="col l3 m6 s6">
+        <div class="col l3 m6 s12">
             <div class="card">
                 <div class="card-image">
                     <img src="img/backHeader.jpg">
@@ -142,7 +145,7 @@
                 </div>
                 <div class="card-content">
                     <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
+                        I am convenient because I require little markup to use effectively.</p>
                 </div>
                 <div class="card-action">
                     <a href="#" class="yellow-text">En savoir plus à propos de l'article</a>
@@ -151,10 +154,10 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col offset-l5 l4 offset-m4 offset-s2">
-            <a class="waves-effect waves-light btn-large yellow-text black"><i class="material-icons right">arrow_downward</i>Afficher plus d'articles</a>
-        </div>
+    <!-- <div class="row"> -->
+        <div class="btn-show-more center-align ">
+            <a class="waves-effect waves-light btn-large yellow-text black"><i class="material-icons right">arrow_downward</i><i class="material-icons left">arrow_downward</i>Afficher plus d'articles</a>
+        <!-- </div> -->
     </div>
 
     <?php
