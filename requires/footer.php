@@ -1,25 +1,25 @@
-<footer class="page-footer black">
+<footer class="page-footer">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="yellow-text">Footer Content</h5>
-                <p class="yellow-text text-lighten-3">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="footer-text-color">Footer Content</h5>
+                <p class="footer-text-color ">You can use rows and columns here to organize your footer content.</p>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="yellow-text">Links</h5>
+                <h5 class="footer-text-color">Links</h5>
                 <ul>
-                    <li><a target="_blank" class="yellow-text text-lighten-3" href="https://www.instagram.com/katochi_tv/">Insta</a></li>
-                    <li><a target="_blank" class="yellow-text text-lighten-3" href="https://twitter.com/katochi_tv">Twitter</a></li>
-                    <li><a target="_blank" class="yellow-text text-lighten-3" href="https://discord.gg/gSugRjcTeJ">Discord</a></li>
-                    <li><a target="_blank" class="yellow-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li><a target="_blank" class="footer-text-color" href="https://www.instagram.com/katochi_tv/">Insta</a></li>
+                    <li><a target="_blank" class="footer-text-color" href="https://twitter.com/katochi_tv">Twitter</a></li>
+                    <li><a target="_blank" class="footer-text-color" href="https://discord.gg/gSugRjcTeJ">Discord</a></li>
+                    <li><a target="_blank" class="footer-text-color" href="#!">Link 4</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="footer-copyright yellow-text text-lighten-2">
+    <div class="footer-copyright footer-text-color ">
         <div class="container">
-            © 2022 Katochi <a class="modal-trigger yellow-text text-lighten-2" href="#modal1">Corp</a>
-            <a class="yellow-text text-lighten-2 right" href="#!">More Links</a>
+            <span class="footer-text-color">© 2022 Katochi </span><a class="modal-trigger footer-text-color" href="#modal1"> Corp</a>
+            <a class="footer-text-color  right" href="#!">More Links</a>
         </div>
     </div>
 

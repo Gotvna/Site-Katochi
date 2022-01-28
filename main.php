@@ -11,23 +11,23 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Css sheets -->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/light_mode.css" rel="stylesheet" id="theme-link">
     <title>Association Katochi</title>
 </head>
 
 <body>
-    <?php
-    require  'requires/navbar.php';
-    ?>
+    
 
+<?php require "requires/navbar.php"; ?>
+    
 
-
-    <ul class="sidenav black" id="mobile-demo">
-        <li><a class="yellow-text" href="#event">Event</a></li>
-        <li><a class="yellow-text" href="#twitch">Chaîne Twitch</a></li>
-        <li><a class="yellow-text" href="#articles">Articles</a></li>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a class="sidenav-links" href="#event">Event</a></li>
+        <li><a class="sidenav-links" href="#twitch">Chaîne Twitch</a></li>
+        <li><a class="sidenav-links" href="#articles">Articles</a></li>
     </ul>
+
 
 
     <div class="header">
@@ -154,10 +154,10 @@
         </div>
     </div>
 
-    <!-- <div class="row"> -->
-        <div class="btn-show-more center-align ">
-            <a class="waves-effect waves-light btn-large yellow-text black"><i class="material-icons right">arrow_downward</i><i class="material-icons left">arrow_downward</i>Afficher plus d'articles</a>
-        <!-- </div> -->
+
+    <div class="btn-show-more center-align ">
+        <a class="waves-effect waves-light btn-large yellow-text black"><i class="material-icons right">arrow_downward</i><i class="material-icons left">arrow_downward</i>Afficher plus d'articles</a>
+
     </div>
 
     <?php
