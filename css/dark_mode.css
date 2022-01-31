@@ -22,12 +22,13 @@
 }
     
 nav div ul li a{
-    color: rgb(231, 216, 53);
+    color: #efda52;
     
 }
 
 ul li a:hover{
     background-color: rgb(48, 46, 46) !important;
+    color: black !important;
 
 }
  
@@ -70,7 +71,7 @@ ul.sidenav {
 }
 
 ul li a.sidenav-links {
-    color: rgb(231, 216, 53);
+    color: #efda52;
 }
  .parallax-container {
      height: 100vh;
@@ -116,5 +117,5 @@ footer.page-footer {
 }
 
 .footer-text-color {
-    color: rgb(231, 216, 53);
+    color: #efda52;
 }
