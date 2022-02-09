@@ -10,6 +10,12 @@
 
 <body>
     <h1>PAGE ADMIN</h1>
+
+
+    <div class="contianer">
+        <h3>Nombre visites sur le site du mois</h3>
+        <h4>Nombre visites sur le site de la semaine</h4>
+    </div>
 </body>
 
 </html>

@@ -36,7 +36,7 @@
                 <div class="parallax">
                     <img src="img/backHeader.jpg">
                 </div>
-                <img src="img/LOGO.png">
+                <img src="img/Logo_bon_jaune.svg" height="150" width="150">
                 <div class="description">
                     <div class="title center">
                         <h1>Katochi</h1>

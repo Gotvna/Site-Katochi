@@ -1,6 +1,6 @@
 <nav class="">
     <div class="nav-wrapper">
-        <a class="brand-logo black-text"><img src="img/LOGO.png" class="logo-navbar"></a>
+        <a class="brand-logo black-text"><img src="img/logo.png" class="logo-navbar"></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a class="" href="#event">Event</a></li>
